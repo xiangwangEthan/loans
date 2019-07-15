@@ -5,11 +5,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
-public class DeptController {
-    @RequestMapping("/hello")
+public class AboutusController {
+    @RequestMapping("/aboutus")
     @ResponseBody
-    public String hello(){
-        System.out.println ("hello world");
-        return "hello world";
+    public String aboutus(){
+        return "我们是贷款公司";
     }
 }
